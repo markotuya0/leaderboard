@@ -8,7 +8,7 @@ createScore.addEventListener('submit', (e) => {
   if (playerName.value === '' || score.value === '') return;
 
   fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/3sdi6s7df4Bfhuu1xBXv/scores',
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/4w9jpwI1eTteuaSmpwhm/scores',
     {
       method: 'POST',
       body: JSON.stringify({
